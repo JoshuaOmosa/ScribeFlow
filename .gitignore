@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Never commit recordings or transcripts; they can contain personal data.
+# Outputs are written next to the audio by default, so this covers them too.
+data/input/*
+!data/input/sample.mp3
+data/output/
